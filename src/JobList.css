@@ -1,0 +1,63 @@
+.JobList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding:5px;
+    margin:5px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+  overflow-y: auto;
+  max-height: calc(100vh - 40px);
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  .JobCard {
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .JobCard:hover {
+    transform: scale(1.03);
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .JobCardHeader {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .JobCardContent {
+    padding: 20px;
+  }
+  
+  .JobCardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .JobCardFooter button {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .JobCardFooter button:hover {
+    background-color: #1565c0;
+  }

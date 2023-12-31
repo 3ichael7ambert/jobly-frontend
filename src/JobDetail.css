@@ -1,0 +1,18 @@
+
+.JobDetail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .JobDetail h2 {
+    color: #333; 
+  }
+  
+  .JobDetail p {
+    color: #555;
+  }
